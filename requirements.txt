@@ -1,0 +1,7 @@
+# Core scientific stack
+numpy>=1.23
+matplotlib>=3.6
+scipy>=1.10
+
+# Training
+torch>=2.0
