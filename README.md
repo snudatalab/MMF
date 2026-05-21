@@ -1,11 +1,6 @@
 # Masked Mixture Factorization (MMF)
 
-This repository contains standalone Python scripts used to run MMF experiments:
-
-- **Reconstruction (fully observed synthetic matrix)**: `main_reconstruction.py`
-- **Matrix completion (explicit ratings)**: `main_completion.py`
-- **Expressivity via singular-value spectrum**: `vis_expressivity.py`
-- **Identifiability / factor stability visualization**: `vis_identifiability.py`
+This repository is the official implementation of "A Masked Mixture Model for Compact and Accurate Matrix Factorization" (KDD 2026).
 
 ---
 
