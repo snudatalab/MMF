@@ -2,7 +2,10 @@
 
 This repository is the official implementation of "A Masked Mixture Model for Compact and Accurate Matrix Factorization" (KDD 2026).
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/snudatalab/MMF/main/docs/MMF_OVERVIEW.PNG" width="540"/>
+</p>
+
 
 ## 1) Setup
 
