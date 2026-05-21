@@ -1,19 +1,15 @@
 # Masked Mixture Factorization (MMF)
 
 This repository is the official implementation of "A Masked Mixture Model for Compact and Accurate Matrix Factorization" (KDD 2026).
-The supplementary material is available [here](docs/MMF_supplementary_material.pdf).
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/snudatalab/MMF/main/docs/MMF_OVERVIEW.PNG" width="540"/>
 </p>
 
+The supplementary material is available [here](docs/MMF_supplementary_material.pdf).
 
 
-Matrix factorization (MF) is a widely used backbone for modeling large relational data due to its simplicity, scalability, and interpretability.
-However, classical MF uses a single shared latent basis, which can be overly restrictive for heterogeneous matrices.
-In this paper, we propose Masked Mixture Factorization (MMF), a lightweight yet effective MF variant that adapts to heterogeneous interactions through instance-wise latent gating, substantially improving accuracy under the same parameter budget while retaining MF's scalability.
-We provide theoretical results on MMF's expressivity and identifiability, clarifying when masking expands representational power and when the model is recoverable.
-Extensive experiments on matrix reconstruction, matrix completion, and Top-N recommendation show consistent gains over strong baselines.
 
 
 ## 1) Setup
