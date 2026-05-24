@@ -41,7 +41,7 @@ Outputs are written under `outputs/`.
 
 ---
 
-## 3) Reconstruction experiment (synthetic, fully observed)
+## 3) Reconstruction
 
 The reconstruction script benchmarks MMF against common baselines (e.g., truncated SVD / MF variants) on a fully observed matrix and logs errors and timing.
 
@@ -60,7 +60,7 @@ python main_reconstruction.py --device cuda --I 256 --J 256   --R_list 16,32,48,
 
 ---
 
-## 4) Matrix completion (explicit ratings)
+## 4) Matrix completion
 
 This script runs MF vs. MMF on explicit-rating matrix completion and saves per-seed + aggregate JSON results.
 
@@ -79,7 +79,7 @@ bash scripts/run_completion_flixster_douban.sh
 ```
 ---
 
-## 5) Expressivity (singular value spectrum)
+## 5) Expressivity
 
 The expressivity script reconstructs synthetic matrices with SVD vs. MMF under a similar parameter budget and plots singular-value spectra.
 
@@ -93,7 +93,7 @@ Tip: use `--svdvals_method lowrank` for speed on large matrices.
 
 ---
 
-## 6) Identifiability / factor stability visualization
+## 6) Identifiability
 
 This script trains two independent runs and compares base factors via an absolute cosine-similarity heatmap.
 
