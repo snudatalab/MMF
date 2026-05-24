@@ -103,8 +103,6 @@ Run:
 bash scripts/run_identifiability.sh
 ```
 
-If you pass `--reorder`, it uses the Hungarian algorithm (requires SciPy) to correct permutation ambiguity in the visualization.
-
 ---
 
 ## Reference
