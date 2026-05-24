@@ -9,9 +9,6 @@ The supplementary material is available [here](docs/MMF_supplementary_material.p
 
 
 
----
-
-
 ## 1) Setup
 
 ### Requirements
