@@ -1,6 +1,6 @@
 # Masked Mixture Factorization (MMF)
 
-This repository is the official implementation of "A Masked Mixture Model for Compact and Accurate Matrix Factorization" (KDD 2026).
+This repository is the official implementation of **"A Masked Mixture Model for Compact and Accurate Matrix Factorization"** (KDD 2026).
 The supplementary material is available [here](docs/MMF_supplementary_material.pdf).
 
 <p align="center">
