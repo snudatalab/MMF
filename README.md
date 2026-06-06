@@ -111,7 +111,7 @@ If you use this code, please cite the following paper.
 ```bibtex
 @inproceedings{park2026mmf,
   title={A Masked Mixture Model for Compact and Accurate Matrix Factorization},
-  author={Park, Yong-chan and Lee, SeungJoo and Lee, Jeongyoung and Kang, U},
+  author={Park, Yong-chan and Lee, Jeongyoung and Lee, SeungJoo and Kang, U},
   booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2},
   year={2026}
 }
